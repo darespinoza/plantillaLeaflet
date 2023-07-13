@@ -2,7 +2,7 @@
 
 A template to display a Leaflet map, place some markers with Tooltips and custom PopUps to them. In addition it displays a image on a modal. Data for markers should be retrieved from a Postgre database, however database connection can be modified.
 
-![Opera Snapshot_2023-07-13_124542_localhost](https://github.com/darespinoza/plantillaLeaflet/assets/92112045/35d1e9cd-b380-4a89-9d07-45f4ac486101)
+![imageedit_10_6435721852](https://github.com/darespinoza/plantillaLeaflet/assets/92112045/7943d37c-d8f9-4ee4-aba4-416dfd94f3ae)
 
 It uses Bootstrap 5 for responsiveness and some Leaflet plugins, listed below.
 
