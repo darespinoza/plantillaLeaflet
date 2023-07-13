@@ -1,0 +1,68 @@
+/*==== Fuente*/
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,700);
+
+/*==== Cambiar el tamano del container
+* https://stackoverflow.com/questions/15884102/bootstrap-how-do-i-change-the-width-of-the-container
+*/
+@media (min-width: 1800px) {
+    .container{
+        max-width: 1280px;
+    }
+}
+
+/*==== Fuente en todo el documento*/
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* CSS to style the map container */
+#map {    
+    width: 100%;
+}
+
+/* _______________ Estilos para personalizar PopUps de Mapa Leaflet */
+.popup-container{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.popup-title {
+    font-size: 18px;    
+    padding: 5px;
+    background-color: #4991d0;
+    color: white;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.popup-subtitle {
+    font-size: 14px;    
+    padding: 5px;
+    background-color: #4991d0;
+    color: white;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.popup-content {  	
+    font-size: 14px;
+    padding: 5px;
+}
+
+.popup-quality {
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.popup-fecha{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.popup-img{
+    float: right;
+    margin: 0 5px 5px 10px;
+    height: 100px;
+    max-height: 120px;
+}
