@@ -39,6 +39,24 @@
     ?>
 
 	<div class="container">
+		<!-- BOOTSTRAP MODAL-->
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="titModal">Modal Header</h4>
+						<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+					</div>
+					<div class="modal-body d-flex justify-content-center">
+						<p id="content"><img id="myModImg" class="img-fluid"></p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
 
 		<!-- ENCABEZADO, FONDO -->
 		<div class="mt-4 p-5 rounded" style="background-image: url('img/default_bg.jpg'); background-size: cover;">
@@ -87,7 +105,7 @@
 		</div>
 
 		<!-- Mapa Leaflet -->
-		<div class="row mt-4" id="map_container">			
+		<div class="row mt-4" id="map_container">
 			<!-- Numero de marcadores -->
 			<div id="numMarkers" style="background:#D1F9FF; text-align: center;"></div>
 			<!-- Mapa -->

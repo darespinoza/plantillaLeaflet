@@ -66,3 +66,25 @@ body{
     height: 100px;
     max-height: 120px;
 }
+
+/* _______________ Estilos para SidebarV2 Content*/
+.leaflet-sidebar-content {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* _______________ Estilos para Modal*/
+.modal {
+    z-index: 10050;
+}
+
+.modal-dialog {
+    z-index: 10060;
+}
+
+.modal-content {
+    z-index: 10070;
+}
+
+.modal-backdrop {
+    z-index: 10040;
+}
